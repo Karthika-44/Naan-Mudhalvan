@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFFFF;
+        }
+
+        header {
+            background-color: #9966CB;
+            color: #fff;
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .header-content h1 {
+            font-size: 2.7rem;
+        }
+
+        .profile-picture {
+            width: 200px;
+            height: 200px;
+            border-radius: 75%;
+            object-fit: cover;
+            position: absolute;
+            top: 50px;
+            left: 75px;
+        }
+
+        nav {
+            background-color: #B47EDE;
+            color: #fff;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            font-size: 1.9rem;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .section-content {
+            background-color: #D7BFDC;
+            padding: 3rem;
+            margin: 2rem;
+            border-radius: 50px;
+            box-shadow: 0 0 250px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+
+            /* Scroll reveal effect */
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+
+        /* When section is visible, reveal it */
+        .reveal {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .download-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            align-self: center;
+        }
+
+        .download-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <!-- Add your profile picture here -->
+            <img src="WhatsApp Image 2025-03-28 at 19.24.02_aebed370.jpg" alt="Your Profile Picture" class="profile-picture">
+            <h1> Karthikadevi K</h1>
+            <h2>Web Developer</h2>
+        </div>
+               <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />   
+        <div class="social-media">
+        
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="https://github.com/Karthika-44"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/karthikadevi-k-3518b8285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bx bxl-linkedin"></i></a>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+           
+<li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+  </header>
+
+    
+
+    <!-- Home Section -->
+
+    <section id="about">
+      <div class="section-content">
+          <center>
+           <h1>About </h1>
+      
+        <p>
+          A Passionate <b>Web Developer & Web Designer</b> with expertise in creating visually appealing, dynamic, and responsive websites. I specialize in HTML, CSS, JavaScript, and modern web technologies, ensuring seamless performance and creativity. From designing sleek layouts to developing interactive features, I enjoy crafting unique web experiences. Excited to explore new challenges and bring ideas to life.
+               </center>
+        </div>
+        </p>
+    
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <center>
+            <h1>Education</h1>
+            <p>Bharathiyar University - KG College of Arts and Science</p>
+            </center>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <center>
+            <h1>Skills</h1>
+
+                <p>C</p>
+                <p>C++</p>
+                <p>Java</p>
+                <p>Python</p>
+            </center>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content">
+            <center>
+            <h1>Projects</h1>
+            
+                <p><a href="#">Event Ticket Booking System</a></p>
+                <p><a href="#">Real-time Chat Application</a></p>
+                <p><a href="#"></a></p>
+                <p><a href="#"></a></p> 
+                <!-- Add more project links here -->
+           
+                 </center>
+        </div>
+    </section>
+
+    <section id="resume">
+    
+        <div class="section-content">
+            <center>
+            <h2>Resume</h2>
+            <a href="Resume .pdf" target="_blank" class="download-button">Download CV</a>
+        </center>
+        </div>
+        
+    </section>
+
+<!-- contact -->
+
+    <section id="contact">
+         <div class="section-content">
+             <center>
+      <h2>Contact Me</h2>
+             </center>
+      <form action="mailto:kkarthikadevi2006@gmail.com" method="post" enctype="text/plain">
+        <div class="input-box">
+            <center>
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+            </center>   
+        </div>
+        <div class="input-box">
+            <center>
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+            </center>   
+            </div>
+          <center>
+        <textarea
+          name=""
+          id=""
+          cols="44"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+          <center>
+        <input type="submit" value="Send Message" class="btn" />
+          </center>
+      </form>
+      </center>
+         </div>
+    </section>
+
+      <!-- footer -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 by Karthikadevi K | All Rights Reserved|</p>
+      </div>
+    </footer>
+
+    <script>
+        function revealSections() {
+            let sections = document.querySelectorAll('.section-content');
+            sections.forEach(section => {
+                let position = section.getBoundingClientRect().top;
+                let screenHeight = window.innerHeight;
+                if (position < screenHeight * 0.85) { 
+                    section.classList.add('reveal');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', revealSections);
+        window.addEventListener('load', revealSections);
+    </script>
+
+</body>
+</html>
